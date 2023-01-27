@@ -1,0 +1,17 @@
+{
+  "name": "vitepress",
+  "version": "1.0.0",
+  "description": "this is my notes",
+  "main": "index.js",
+  "author": "lbg",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.40",
+    "vue": "^3.2.45"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
+}
