@@ -6,7 +6,7 @@ hero:
     text: 一个普通的技术知识库
     tagline: 谦虚、向上、勤奋
     image:
-        src: 'image/programmer.gif'
+        src: image/logo.png
         alt: 码农
     actions:
         - theme: brand
