@@ -10,7 +10,8 @@ export default {
                     {text: 'HTML5',link: 'language/HTML5'},
                     {text: 'CSS',link: 'language/CSS'},
                     {text: 'Javascript',link: 'language/JavaScript'},
-                    {text: 'MySQL',link: 'language/MySQL'}
+                    {text: 'MySQL',link: 'language/MySQL'},
+                    {text: 'ES新特性',link: 'language/NewES'}
                 ]
             },
             {
@@ -22,7 +23,29 @@ export default {
                     {text: 'jQuery',link: 'BasicKnowledge/jQuery'},
                     {text: 'MongoDB',link: 'BasicKnowledge/MongoDB'},
                     {text: 'NodeJS',link: 'BasicKnowledge/nodejs'},
-                    {text: 'Webpack',link: 'BasicKnowledge/webpack'}
+                    {text: 'Webpack',link: 'BasicKnowledge/webpack'},
+                    {text: 'less',link: 'BasicKnowledge/less'},
+                    {text: 'Promise',link: 'BasicKnowledge/Promise'},
+                    {text: 'Git',link: 'BasicKnowledge/Git'},
+                ]
+            },
+            {
+                text: '解决方案',
+                items: [
+                    {text: 'react脚手架配置代理',link: 'functions/react脚手架配置代理'},
+                    {text: '玻璃拟态',link: 'functions/玻璃拟态'}
+                ]
+            },
+            {
+                text: '前端模块化',
+                items: [
+                    {text: '模块化进化史',link: 'modules/模块化进化史教程'},
+                    {text: 'CommonJS_Node模块化',link: 'modules/CommonJS_Node模块化教程'},
+                    {text: 'CommonJS-Browserify模块化',link: 'modules/CommonJS-Browserify模块化教程'},
+                    {text: 'AMD-RequireJS模块化',link: 'modules/AMD-RequireJS模块化教程'},
+                    {text: 'CMD-SeaJS模块化',link: 'modules/CMD-SeaJS模块化教程'},
+                    {text: 'ES6模块化',link: 'modules/ES6模块化教程'},
+                    {text: 'Js模块化',link: 'modules/模块化'}
                 ]
             },
             {
