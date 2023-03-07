@@ -415,15 +415,6 @@ p.then(
   ```js
   p.then(value=>{},reason=>{}).then(value=>{},reason=>{});
   ```
-
-  > 实践
-  >
-  > ![fs](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_10239_.jpeg)
-  >
-  > ![实践2](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_10520_.jpeg)
-  >
-  > ![实践](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_10723_.jpeg)
-
 #### catch方法
 
 类似于then方法
@@ -449,8 +440,6 @@ p.catch(function (reason) {
 ```
 
 ### Set集合
-
-![概念](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_101920_.jpeg)
 
 #### 基本使用
 
@@ -503,7 +492,7 @@ let diff = [...new Set(arr)].filter((item) => !new Set(arr4).has(item));
 
 ### Map
 
-![概念](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_104123_.jpeg)
+
 
 #### 基本使用
 
@@ -536,7 +525,7 @@ for (let v of m) {
 
 ### Class类
 
-![概念](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_114429_.jpeg)
+
 
 #### 初体验
 
@@ -706,7 +695,7 @@ s.price = "free"; // 输出价格属性被修改了
 
 ### ES6的数值扩展
 
-![数值扩展](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_14248_.jpeg)
+
 
 ### 对象方法的扩展
 
@@ -739,7 +728,7 @@ Object.getPrototypeOf(school);
 
 ### 模块化
 
-![模块化](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_145411_.jpeg)
+
 
 #### 语法
 
@@ -820,14 +809,14 @@ import * as m2 from "./2.js";
 
 >[Babel 中文网 · Babel - 下一代 JavaScript 语法的编译器 (babeljs.cn)](https://www.babeljs.cn/)
 
-![babel](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_152758_.jpeg)
+
 
 ## ES7
 
-![ES7](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_153634_.jpeg)
+
 
 ```js
-![网页捕获_12-3-2022_155854_](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_155854_.jpeg)// indexof 返回的是数字
+// indexof 返回的是数字
 const mingzhu = ['西游记','水浒传','红楼梦','三国演义'];
 console.log(mingzhu.includes('西游记'));    // true
 console.log(mingzhu.includes('金瓶梅'));    // false
@@ -843,7 +832,7 @@ console.log(2 ** 10);   // 1024
 
 #### async
 
-![astnc](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_155854_.jpeg)
+
 
 ```js
 async function fn() {
@@ -862,7 +851,7 @@ console.log(result);
 
 #### await
 
-![await](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_163931_.jpeg)
+
 
 ```js
 // 创建一个promise对象
@@ -889,13 +878,13 @@ main();
 
 #### 组合实践
 
-![实践1](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_164935_.jpeg)
 
-![实践2](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_165233_.jpeg)
+
+
 
 ### 对象方法扩展
 
-![对象方法扩展](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_165827_.jpeg)
+
 
 ```js
 // 声明对象
@@ -923,7 +912,7 @@ console.log(Object.getOwnPropertyDescriptors(school));
 
 ### rest参数
 
-![rest参数](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_17112_.jpeg)
+
 
 ```js
 // 有更多的参数会存放到user中去
@@ -958,7 +947,7 @@ console.log(liqing);
 
 #### 命名捕获分组
 
-![正则扩展](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_17275_.jpeg)
+
 
 ```js
 // 声明一个字符串
@@ -978,7 +967,7 @@ console.log(result1.groups.text); // 返回标签文本
 
 #### 反向断言
 
-![反向断言](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_17400_.jpeg)
+
 
 ```js
 // 声明一个字符串
@@ -995,15 +984,13 @@ console.log(result1);
 
 #### dotAll模式
 
-![dotAll模式](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_175853_.jpeg)
 
-![代码示例](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_18044_.jpeg)
+
 
 ## ES10
 
 ### 对象扩展方法
 
-![Object.fromEntries](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_194522_.jpeg)
 
 ```js
 // Object.fromEntries 将二维数组或者map转换成对象
@@ -1027,7 +1014,7 @@ console.log(arr);
 
 ### 字符串方法扩展
 
-![trimstart和trimend](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_194818_.jpeg)
+
 
 ```js
 // trim
@@ -1039,7 +1026,7 @@ console.log(str.trimEnd()); //     iloveyou；清除右边的空白字符
 
 ### 数组方法扩展
 
-![数组方法扩展](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_195423_.jpeg)
+
 
 ```js
 // 将多维数组转化为低位数组
@@ -1124,7 +1111,7 @@ console.log(result1);
 
 ​		用来得到正则批量匹配的结果；
 
-![String.prototype.matchAll](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_20522_.jpeg)
+
 
 ### 可选链操作符
 
@@ -1153,7 +1140,7 @@ main({
 
 ​		按需加载模块,类似于懒加载
 
-![动态import](C:\Users\lbg\Desktop\框架\笔记图片\网页捕获_12-3-2022_211359_.jpeg)
+
 
 ### BigInt
 
