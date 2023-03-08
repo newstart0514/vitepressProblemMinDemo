@@ -49,6 +49,19 @@ export default {
                 ]
             },
             {
+                text: '网络安全',
+                items: [
+                    {text: '一些基础知识',link: 'anquan/basic'},
+                    {text: '详解http',link: 'anquan/http'},
+                    {text: '端口协议',link: 'anquan/port'},
+                    {text: '常见编码',link: 'anquan/bianma'},
+                    {text: 'XSS攻击',link: 'anquan/xss'},
+                    {text: 'CSRF攻击',link: 'anquan/csrf'},
+                    {text: '伪随机码攻击',link: 'anquan/phonenum'},
+                    {text: 'json劫持攻击',link: 'anquan/jsonfight'},
+                ]
+            },
+            {
                 text: '扩展知识',
                 items: [
                     {text: '2022前端趋势',link: 'extend/2022前端趋势'}

@@ -1,4 +1,4 @@
-# JavaScript
+# :laughing:JavaScript
 
 ## 引入JavaScript
 

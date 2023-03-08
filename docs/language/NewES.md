@@ -1,4 +1,4 @@
-# ES新特性
+# :slightly_smiling_face:ES新特性
 
 ## ES6
 

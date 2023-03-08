@@ -1,4 +1,4 @@
-# MySQL
+# :satisfied:MySQL
 
 ## 认识MySQL
 
