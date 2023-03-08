@@ -62,6 +62,18 @@ export default {
                 ]
             },
             {
+                text: 'CVE复现',
+                items: [
+                    {text: 'CVE-2022-25578',link: 'CVE/CVE-2022-25578'},
+                    {text: 'CVE-2022-28060',link: 'CVE/CVE-2022-28060'},
+                    {text: 'CVE-2022-28512',link: 'CVE/CVE-2022-28512'},
+                    {text: 'CVE-2022-28525',link: 'CVE/CVE-2022-28525'},
+                    {text: 'CVE-2022-29464',link: 'CVE/CVE-2022-29464'},
+                    {text: 'CVE-2022-30887',link: 'CVE/CVE-2022-30887'},
+                    {text: 'CVE-2022-32991',link: 'CVE/CVE-2022-32991'}
+                ]
+            },
+            {
                 text: '扩展知识',
                 items: [
                     {text: '2022前端趋势',link: 'extend/2022前端趋势'}
