@@ -11,6 +11,7 @@ export default {
                     {text: 'CSS',link: 'language/CSS'},
                     {text: 'Javascript',link: 'language/JavaScript'},
                     {text: 'MySQL',link: 'language/MySQL'},
+                    {text: 'Dart',link: 'language/Dart'},
                     {text: 'ES新特性',link: 'language/NewES'}
                 ]
             },
